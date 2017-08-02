@@ -3,11 +3,15 @@
 <head>
 </head>
 <body>
+	<div>I have created a student object which has name and college as data members. In this, name
+	is a primitive datatype and college is a Object. In shallow copy, changing the value of original object
+	will affect college of copied object because both share same references. Incase of deep copy,
+	a completely new object is created</div>
 	<div>Student Name : <input id="StudName"></input></div>
 	<div>College Name : <input id="CollegeName"></input></div>
 	<button onClick="changeOrgObj()">Update</button>
-	<div>Original Object</div><div id="OriginalObj"></div><br>
-	<div>Shallow Object</div><div id="ShallowObj"></div><br>
+	<div>Original Copy Object</div><div id="OriginalObj"></div><br>
+	<div>Shallow Copy Object</div><div id="ShallowObj"></div><br>
 	<div>Deep Object</div><div id="DeepObj"></div>
 </body>
 <script src="ShallowAndDeepCopy.js"></script>
